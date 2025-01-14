@@ -1,0 +1,45 @@
+@font-face {
+	font-family: "Cascadia Code";
+	src: url("CascadiaCode-2407.24\ttf\CascadiaCode.ttf") format("ttf");
+}
+
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: "Cascadia Code", monospace;
+}
+
+span.subtitle {
+	color: #808080;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span.dates {
+    text-align: right;
+    color: #808080;
+    margin: 0;
+}
+
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img.photo {
+	height: 200px;
+	border-radius: 10px;
+}
+
+h2 {
+	text-align: center;
+}
+
+div.photos {
+	text-align: justify;
+}
