@@ -7,10 +7,7 @@ body {
 	background-color: #000000;
 	color: #ffffff;
 	font-family: "Cascadia Code", monospace;
-}
-
-span.subtitle {
-	color: #808080;
+	font-style: italic;
 }
 
 h3 {
@@ -21,14 +18,20 @@ h3 {
 
 span.dates {
     text-align: right;
-    color: #808080;
     margin: 0;
 }
 
+span.english {
+	color: #808080;
+}
 
 a {
 	color: inherit;
 	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 img.photo {
