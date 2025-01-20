@@ -1,29 +1,28 @@
 @font-face {
-	font-family: "Cascadia Code";
-	src: url("CascadiaCode-2407.24\ttf\CascadiaCode.ttf") format("ttf");
+	font-family: "Cascadia Code Italic";
+	src: url("CascadiaCode-2407.24/ttf/CascadiaCodeItalic.ttf") format("truetype");
 }
 
 body {
 	background-color: #000000;
 	color: #ffffff;
-	font-family: "Cascadia Code", monospace;
-	font-style: italic;
-}
-
-h3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-span.dates {
-    text-align: right;
-    margin: 0;
+	font-family: "Cascadia Code Italic", monospace;
 }
 
 span.english {
 	color: #808080;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensures the container takes up full width */
+}
+
+span.align-right {
+    text-align: right;
+}
+
 
 a {
 	color: inherit;
@@ -45,4 +44,16 @@ h2 {
 
 div.photos {
 	text-align: justify;
+}
+
+.centered-list {
+    display: flex;
+    justify-content: center; /* Centers the div horizontally */
+    width: 100%; /* Ensures the div takes up full width */
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+    text-align: left; /* Aligns the text of list items to the left */
 }
