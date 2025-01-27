@@ -57,3 +57,16 @@ ul {
     padding-left: 0;
     text-align: left; /* Aligns the text of list items to the left */
 }
+
+::-webkit-scrollbar {
+	width: auto;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #000000;
+	
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #ffffff;
+  }
